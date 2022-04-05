@@ -1,0 +1,11 @@
+.typecursor{
+    opacity: 1;
+    font-weight: 900;
+    animation: blink-animation 1s steps(2, start) infinite;
+    -webkit-animation: blink-animation 1s steps(2, start) infinite;
+}
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
